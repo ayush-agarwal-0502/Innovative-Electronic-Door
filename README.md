@@ -26,4 +26,27 @@ d) Emergency mode : The gate remains open and a siren keeps ringing .
 8. The door can detect the number of people in the room and thus glow a green , yellow or red LED , depending on the crowdiness in the room , thus being an indicator of social distancing norms in the room .
 
 ## Working of the door 
+## Overall working 
+![image](https://user-images.githubusercontent.com/86561124/136602997-6cb5cd8b-125f-45e2-adc4-8f388863cdd3.png)
+![image](https://user-images.githubusercontent.com/86561124/136603018-1bbeaaff-4c09-4700-89f6-5d4413477b0e.png)
+## Now explaining it part by part 
+### The Photoelectrical part 
+![image](https://user-images.githubusercontent.com/86561124/136603259-49699314-6484-44f5-b818-1b600484fa52.png)
+![image](https://user-images.githubusercontent.com/86561124/136603220-a92e88fd-3bf8-433a-80b4-a61254240d75.png)
+
+The LDR has the property that when light falls on it its resistance becomes negligible and when light dont fall on it its resistance goes towards infinity . Here we have used BJT as a switch . When light is falling on the LDR , output of this is 0 . When the light is interrupted , then the output is 1 . 2 of these LDRs will be placed in the photo-interruption box ( shown on the next page ) and these boxes are placed on the walls on both the sides of the door, thus enabling the door to be opened . The last LDR will be between the gate , thus if someone walks through the gate then another signal is passed for the gate to open thus preventing trapping someone between the doors 
+### The Password Machine 
+![image](https://user-images.githubusercontent.com/86561124/136603881-d89a06ef-7a9b-4ffb-bf3f-b6e32193de9d.png)
+
+The user can choose whether or not to have the password through the control panel . The password can also be set through the control panel .The password machine is a very famous circuit in digital electronics , based on the property of XNOR gates that they return 1 only when both the inputs are same . The password can be inputted contactlessly through the infrared sensors , as bringing the hand closer to the IR sensor will return 1 to the circuit , else will return 0 to the circuit . 
+
+Verilog part for password machine 
+
+![image](https://user-images.githubusercontent.com/86561124/136604058-f8e7ca7c-dd75-4260-93e7-5a082b0faac1.png)
+![image](https://user-images.githubusercontent.com/86561124/136604130-dc11576b-cf68-490b-91c8-1b6a7224fce1.png)
+![image](https://user-images.githubusercontent.com/86561124/136604185-55f258a1-e667-440f-aa0e-e0d719b172d0.png)
+
+
+
+
 
