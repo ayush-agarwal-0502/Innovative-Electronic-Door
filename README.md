@@ -10,10 +10,20 @@ My name is Ayush Agarwal . I'm an electronics engineering student at IIT BHU Var
 
 2. The door can detect the presence of a person between the gates and remain open , thus avoiding crushing a person . 
 3. The door can be operated in multiple modes :
+  
 a) Privacy Mode : Once this is activated from the control panel , the gate cannot be opened .
+
 b) Password Mode : If this mode is selected from the control panel, the person who wants to enter the room must input a password . However , the unique feature is that the password can also be inputted contactlessly , by placing hand in front of the correct infrared sensors . 
+
 c) Open mode : The gate remains open .
+
 d) Emergency mode : The gate remains open and a siren keeps ringing .
+
 4. The door can also detect fire and open itself and ring a fire alarm . 
 5. The door is highley cost effective , it costs less than 1000 rupees which is much much less than the competing technologies presently in use .
 6. The amount of time for which the door has to remain open can also be set by the control panel .
+7. The door will automatically switch on a light and a fan if there is atleast one person in the room .
+8. The door can detect the number of people in the room and thus glow a green , yellow or red LED , depending on the crowdiness in the room , thus being an indicator of social distancing norms in the room .
+
+## Working of the door 
+
