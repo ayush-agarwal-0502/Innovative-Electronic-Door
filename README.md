@@ -46,6 +46,18 @@ Verilog part for password machine
 ![image](https://user-images.githubusercontent.com/86561124/136604130-dc11576b-cf68-490b-91c8-1b6a7224fce1.png)
 ![image](https://user-images.githubusercontent.com/86561124/136604185-55f258a1-e667-440f-aa0e-e0d719b172d0.png)
 
+### The Magic Counter 
+![image](https://user-images.githubusercontent.com/86561124/136607330-697e5374-93dc-48a8-9e8b-ce900ba711ff.png)
+![image](https://user-images.githubusercontent.com/86561124/136607449-d58601ca-82fb-4947-8077-72c31b76a1a1.png)
+![image](https://user-images.githubusercontent.com/86561124/136607501-8eb9dd82-8f99-4d83-9edf-d3428d1e782b.png)
+![image](https://user-images.githubusercontent.com/86561124/136607582-02e0311a-9a33-4297-948e-f17c38cef373.png)
+![image](https://user-images.githubusercontent.com/86561124/136607663-7985798f-109d-4e07-ab7f-239d9ce3a3c4.png)
+
+One more feature of our Door is the Magic Counter i.e. this counter displays the number of times the gate has been used . Can be used to display 2 digit numbers efficiently using 7 segment displays . First the Binary Counter get the pulse from the clock and one by one these pulses gets added up i.e. when the counter receives 1 pulse the the units display will show 1, and after another pulse it will show 2 and so on. Now when 9 pulses are added the output is 1001 i.e. 9, and when the next i.e. the 10th pulse comes the output is 1010. But to display it, as 10 is a two digit number we use another Binary Counter to do the working for the second digit.  Here, when the output is 1010 i.e. the tens place is getting added up. So a AND gate is used on the 2nd and 4th bit of the output, bringing us to an output of 1 and this output is again used as a pulse to the next counter which then counts for the tens place.
+
+### The Monostable Multivibrator 
+
+
 
 
 
