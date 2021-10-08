@@ -1,0 +1,7 @@
+Running: xsim.dir/testbench_crowd_factor_behav/xsimk.exe -simmode gui -wdb testbench_crowd_factor_behav.wdb -simrunnum 0 -socket 60951
+Design successfully loaded
+Design Loading Memory Usage: 5732 KB (Peak: 5732 KB)
+Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 6364 KB (Peak: 6364 KB)
+Simulation CPU Usage: 124 ms

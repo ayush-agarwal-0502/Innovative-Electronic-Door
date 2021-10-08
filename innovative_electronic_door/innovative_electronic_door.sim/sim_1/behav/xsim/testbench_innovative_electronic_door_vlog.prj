@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../innovative_electronic_door.srcs/sources_1/new/innovative_electronic_door.v" \
+"../../../../innovative_electronic_door.srcs/sim_1/new/testbench_innovative_electronic_door.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

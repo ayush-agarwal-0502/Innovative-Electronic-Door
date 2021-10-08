@@ -1,0 +1,10 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 961d08ee94f445629efc32180b1fac79 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_no_ppl_in_room_behav xil_defaultlib.testbench_no_ppl_in_room xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+ERROR: [XSIM 43-3356]  Could not open file xsim.dir/testbench_no_ppl_in_room_behav/xsim.type for writing.
+ERROR: [XSIM 43-3915] Encountered a fatal error. Cannot continue. Exiting... 

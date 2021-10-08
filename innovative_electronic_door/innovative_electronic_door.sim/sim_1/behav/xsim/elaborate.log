@@ -1,0 +1,9 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 9f8f2f89c5dd4715aeb304c24a39cb2d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_innovative_electronic_door_behav xil_defaultlib.testbench_innovative_electronic_door xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'crowd_factor' [C:/verilog files/innovative_electronic_door/innovative_electronic_door.srcs/sim_1/new/testbench_innovative_electronic_door.v:31]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'k' [C:/verilog files/innovative_electronic_door/innovative_electronic_door.srcs/sources_1/new/innovative_electronic_door.v:44]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

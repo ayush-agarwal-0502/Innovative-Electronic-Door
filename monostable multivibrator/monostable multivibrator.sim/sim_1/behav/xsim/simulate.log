@@ -1,0 +1,3 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+$finish called at time : 200 ns : File "C:/verilog files/monostable multivibrator/monostable multivibrator.srcs/sim_1/new/astable_multivibrator_testbench.v" Line 39

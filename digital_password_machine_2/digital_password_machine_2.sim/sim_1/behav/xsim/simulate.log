@@ -1,0 +1,3 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+$finish called at time : 340 ns : File "C:/verilog files/digital_password_machine_2/digital_password_machine_2.srcs/sim_1/new/testbench_password_machine.v" Line 43

@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../crowd_factor.srcs/sources_1/new/crowd_factor.v" \
+"../../../../crowd_factor.srcs/sim_1/new/testbench_crowd_factor.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

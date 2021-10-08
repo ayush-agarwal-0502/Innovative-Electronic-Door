@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_innovative_electronic_door_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench_innovative_electronic_door" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="550000001fs"></ZoomEndTime>
+      <Cursor1Time time="550000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="140"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/testbench_innovative_electronic_door/light1" type="logic">
+      <obj_property name="ElementShortName">light1</obj_property>
+      <obj_property name="ObjectShortName">light1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_innovative_electronic_door/light2" type="logic">
+      <obj_property name="ElementShortName">light2</obj_property>
+      <obj_property name="ObjectShortName">light2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_innovative_electronic_door/light3" type="logic">
+      <obj_property name="ElementShortName">light3</obj_property>
+      <obj_property name="ObjectShortName">light3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_innovative_electronic_door/password_mode" type="logic">
+      <obj_property name="ElementShortName">password_mode</obj_property>
+      <obj_property name="ObjectShortName">password_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_innovative_electronic_door/privacy_mode" type="logic">
+      <obj_property name="ElementShortName">privacy_mode</obj_property>
+      <obj_property name="ObjectShortName">privacy_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_innovative_electronic_door/emergency_mode" type="logic">
+      <obj_property name="ElementShortName">emergency_mode</obj_property>
+      <obj_property name="ObjectShortName">emergency_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_innovative_electronic_door/master_switch" type="logic">
+      <obj_property name="ElementShortName">master_switch</obj_property>
+      <obj_property name="ObjectShortName">master_switch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_innovative_electronic_door/fire_system_out" type="logic">
+      <obj_property name="ElementShortName">fire_system_out</obj_property>
+      <obj_property name="ObjectShortName">fire_system_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_innovative_electronic_door/crowd_factor_reset" type="logic">
+      <obj_property name="ElementShortName">crowd_factor_reset</obj_property>
+      <obj_property name="ObjectShortName">crowd_factor_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_innovative_electronic_door/password" type="array">
+      <obj_property name="ElementShortName">password[0:3]</obj_property>
+      <obj_property name="ObjectShortName">password[0:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_innovative_electronic_door/entered_password" type="array">
+      <obj_property name="ElementShortName">entered_password[0:3]</obj_property>
+      <obj_property name="ObjectShortName">entered_password[0:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_innovative_electronic_door/motor_output" type="logic">
+      <obj_property name="ElementShortName">motor_output</obj_property>
+      <obj_property name="ObjectShortName">motor_output</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_innovative_electronic_door/crowd_factor" type="array">
+      <obj_property name="ElementShortName">crowd_factor[0:2]</obj_property>
+      <obj_property name="ObjectShortName">crowd_factor[0:2]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_innovative_electronic_door/times_gate_operated_0" type="array">
+      <obj_property name="ElementShortName">times_gate_operated_0[0:3]</obj_property>
+      <obj_property name="ObjectShortName">times_gate_operated_0[0:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_innovative_electronic_door/times_gate_operated_1" type="array">
+      <obj_property name="ElementShortName">times_gate_operated_1[0:3]</obj_property>
+      <obj_property name="ObjectShortName">times_gate_operated_1[0:3]</obj_property>
+   </wvobject>
+</wave_config>

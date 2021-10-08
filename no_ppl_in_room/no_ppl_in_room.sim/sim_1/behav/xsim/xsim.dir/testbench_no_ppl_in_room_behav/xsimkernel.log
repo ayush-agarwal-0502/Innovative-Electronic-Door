@@ -1,0 +1,7 @@
+Running: xsim.dir/testbench_no_ppl_in_room_behav/xsimk.exe -simmode gui -wdb testbench_no_ppl_in_room_behav.wdb -simrunnum 0 -socket 57597
+Design successfully loaded
+Design Loading Memory Usage: 5760 KB (Peak: 5760 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 6392 KB (Peak: 6392 KB)
+Simulation CPU Usage: 93 ms

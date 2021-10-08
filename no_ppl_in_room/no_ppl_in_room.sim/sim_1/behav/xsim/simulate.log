@@ -1,0 +1,4 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+x x x
+$finish called at time : 150 ns : File "C:/verilog files/no_ppl_in_room/no_ppl_in_room.srcs/sim_1/new/testbench_no_ppl_in_room.v" Line 71
