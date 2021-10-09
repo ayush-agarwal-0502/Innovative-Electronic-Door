@@ -29,36 +29,3 @@ d) Emergency mode : The gate remains open and a siren keeps ringing .
 ## Overall working 
 ![image](https://user-images.githubusercontent.com/86561124/136602997-6cb5cd8b-125f-45e2-adc4-8f388863cdd3.png)
 ![image](https://user-images.githubusercontent.com/86561124/136603018-1bbeaaff-4c09-4700-89f6-5d4413477b0e.png)
-## Now explaining it part by part 
-### The Photoelectrical part 
-![image](https://user-images.githubusercontent.com/86561124/136603259-49699314-6484-44f5-b818-1b600484fa52.png)
-![image](https://user-images.githubusercontent.com/86561124/136603220-a92e88fd-3bf8-433a-80b4-a61254240d75.png)
-
-The LDR has the property that when light falls on it its resistance becomes negligible and when light dont fall on it its resistance goes towards infinity . Here we have used BJT as a switch . When light is falling on the LDR , output of this is 0 . When the light is interrupted , then the output is 1 . 2 of these LDRs will be placed in the photo-interruption box ( shown on the next page ) and these boxes are placed on the walls on both the sides of the door, thus enabling the door to be opened . The last LDR will be between the gate , thus if someone walks through the gate then another signal is passed for the gate to open thus preventing trapping someone between the doors 
-### The Password Machine 
-![image](https://user-images.githubusercontent.com/86561124/136603881-d89a06ef-7a9b-4ffb-bf3f-b6e32193de9d.png)
-
-The user can choose whether or not to have the password through the control panel . The password can also be set through the control panel .The password machine is a very famous circuit in digital electronics , based on the property of XNOR gates that they return 1 only when both the inputs are same . The password can be inputted contactlessly through the infrared sensors , as bringing the hand closer to the IR sensor will return 1 to the circuit , else will return 0 to the circuit . 
-
-Verilog part for password machine 
-
-![image](https://user-images.githubusercontent.com/86561124/136604058-f8e7ca7c-dd75-4260-93e7-5a082b0faac1.png)
-![image](https://user-images.githubusercontent.com/86561124/136604130-dc11576b-cf68-490b-91c8-1b6a7224fce1.png)
-![image](https://user-images.githubusercontent.com/86561124/136604185-55f258a1-e667-440f-aa0e-e0d719b172d0.png)
-
-### The Magic Counter 
-![image](https://user-images.githubusercontent.com/86561124/136607330-697e5374-93dc-48a8-9e8b-ce900ba711ff.png)
-![image](https://user-images.githubusercontent.com/86561124/136607449-d58601ca-82fb-4947-8077-72c31b76a1a1.png)
-![image](https://user-images.githubusercontent.com/86561124/136607501-8eb9dd82-8f99-4d83-9edf-d3428d1e782b.png)
-![image](https://user-images.githubusercontent.com/86561124/136607582-02e0311a-9a33-4297-948e-f17c38cef373.png)
-![image](https://user-images.githubusercontent.com/86561124/136607663-7985798f-109d-4e07-ab7f-239d9ce3a3c4.png)
-
-One more feature of our Door is the Magic Counter i.e. this counter displays the number of times the gate has been used . Can be used to display 2 digit numbers efficiently using 7 segment displays . First the Binary Counter get the pulse from the clock and one by one these pulses gets added up i.e. when the counter receives 1 pulse the the units display will show 1, and after another pulse it will show 2 and so on. Now when 9 pulses are added the output is 1001 i.e. 9, and when the next i.e. the 10th pulse comes the output is 1010. But to display it, as 10 is a two digit number we use another Binary Counter to do the working for the second digit.  Here, when the output is 1010 i.e. the tens place is getting added up. So a AND gate is used on the 2nd and 4th bit of the output, bringing us to an output of 1 and this output is again used as a pulse to the next counter which then counts for the tens place.
-
-### The Monostable Multivibrator 
-
-
-
-
-
-
