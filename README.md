@@ -29,3 +29,5 @@ d) Emergency mode : The gate remains open and a siren keeps ringing .
 ## Overall working 
 ![image](https://user-images.githubusercontent.com/86561124/136602997-6cb5cd8b-125f-45e2-adc4-8f388863cdd3.png)
 ![image](https://user-images.githubusercontent.com/86561124/136603018-1bbeaaff-4c09-4700-89f6-5d4413477b0e.png)
+
+For part by part explanation of the project , refer to the explanation .md file. For seeing the verilog working of the project , open the verilog part .md file . For the actual verilog code of the whole project as well as the individual parts , refer to the folders in this repository .
