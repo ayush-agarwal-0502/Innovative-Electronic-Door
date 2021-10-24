@@ -7,3 +7,5 @@
 3 face detector to open automatically for pets 
 
 4 automatic sanitiser dispenser near the photo box 
+
+5 Get patent (if the reader can help in this , please do so )
