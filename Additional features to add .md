@@ -9,3 +9,5 @@
 4 automatic sanitiser dispenser near the photo box 
 
 5 Get patent (if the reader can help in this , please do so )
+
+6 privacy mode should switch off the light in the photointerruptor box 
