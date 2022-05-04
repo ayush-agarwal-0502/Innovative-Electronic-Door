@@ -1,7 +1,13 @@
 # Innovative-Electronic-Door
 ## Digital electronics and verilog project
 ## Introduction
-My name is Ayush Agarwal . I'm an electronics engineering student at IIT BHU Varanasi .This is a project I made for the event "Navyantra" (electronics event) held under "Takshak" , the robotics fest of IIT ISM Dhanabad . It consists of a very unique electronic door which I invented using the basic principles of digital electronics , which has multiple features keeping in mind the coronavirus pandemic situation. I've also made the verilog model for the project .
+My name is Ayush Agarwal . I'm an electronics engineering student at IIT BHU Varanasi .
+
+This is a project I made for the event "Navyantra" (electronics event) held under "Takshak" , the robotics fest of IIT ISM Dhanabad . It reached the round 2 ( in top 6 teams ) in that event .
+
+Furthermore , this project also secured 6th rank out of 250+ submissions in Ideeavolt , a project pitching competition held by IIT Roorkee .
+
+It consists of a very unique electronic door which I invented using the basic principles of digital electronics , which has multiple features keeping in mind the coronavirus pandemic situation. I've also made the verilog model for the project .
 ## Key features of the Door:
 1. The door can be opened from both the sides contactlessly , using a photointerruption mechanism . The person can open the door just by interrupting the light by placing his/her hand in the photointerruption box, which sends the required signals . Thus the gate can be opened contactlessly , preventing the spread of coronavirus . This is better than the existing technologies as in the existing technology , whenever someone walks in front of the door , it opens , thus making the door useless in narrow corridors of places such as schools and offices . 
 2. 
